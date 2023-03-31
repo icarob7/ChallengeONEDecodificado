@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(252, 172, 172);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    color: blue;
+}
+.cabeçalho h1{
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+.container-input input{
+    width: 400px;
+    height: 330px;
+}
+#input-texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: blue;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: lowercase;
+}
+#output-texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: blue;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: lowercase;
+}
+#output{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid blue;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3%;
+}
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+#output span{
+    font-size: 16px;
+    text-align: center;
+}
+#output img{
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+.container-button button{
+    border: 2px solid blue;
+    border-radius: 10px;
+    text-decoration: none;
+    color:black;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+.button-copiar{
+    border: 2px solid blue;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.container-button button:hover{
+    border: 4px solid black;
+    transition: 0.1s all;
+}

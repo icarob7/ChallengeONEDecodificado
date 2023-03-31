@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title> decodificador </title>
+    <meta charset="utf-8">
+    <meta nome="author" content="icaro">
+    <meta nome="description" content="decodificador">
+    <meta nome="keywordes" content="html5, tecnologia">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="website icon" type="png" href="css/Vector.png">
+</head>
+    <body>  
+    
+    <main class="main contenier">
+        <header class="cabeçalho">
+            <img src="css/Vector.png" alt="logo">
+            <h1>Mensagens Codificadas</h1>
+        </header>
+        <div class="container-input">
+            <div class="input">
+                <textarea id="input-texto" placeholder="Digite o seu texto aqui..."></textarea>
+                <p>ATENÇÃO: Apenas letras minusculas e sem acento!</p>
+            </div>
+
+            <div id="output">
+                <img src="css/download.jpg" alt="logoalugara">
+                <h2>Sua mensagem aparecerá aqui!</h2>
+                <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+            </div>
+        </div>
+        
+        <div class="buttons">
+            <div class="container-button">
+                <button onclick="criptografar()"class="button-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="button-descriptografar">Descriptografar</button>
+              </div>
+        </div>
+    </main>
+      <script src="javaScript.js"></script>
+    </body>
+</html>
